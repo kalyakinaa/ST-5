@@ -29,7 +29,6 @@ public class AppTest {
 
     @Test
     public void testGoodWithSmallGuessAndX() {
-        //sqrt = new Sqrt(0.0001);
         assertTrue(sqrt.good(0.001, 0.000001));
         assertFalse(sqrt.good(0.002, 0.000001));
     }
